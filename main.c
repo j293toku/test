@@ -1,4 +1,4 @@
-#include <stdio.h> #include <stdlib.h> #include <math.h>  
+#include <stdio.h> 
 
 double myRoot(double x) // x の平方根を返す関数。x >= 0 ではないときエラー表示を行い exit(1) とする。 
 {
@@ -14,8 +14,8 @@ double myRoot(double x) // x の平方根を返す関数。x >= 0 ではない�
 int main(void)
 {
   int i = 0; // iの初期化を追加
-  double *x = (double *)malloc(sizeof(double) * 101); // 配列サイズを101に変更
-
+  double *x = (double *)malloc(sizeof(double) * 100);
+  
   while( i <= 100 ){
     x[i] = myRoot((double)i);
     i++;
