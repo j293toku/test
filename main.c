@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> #include <stdlib.h> #include <math.h>  
 
 double myRoot(double x) // x の平方根を返す関数。x >= 0 ではないときエラー表示を行い exit(1) とする。 
 {
